@@ -1,0 +1,19 @@
+/* テーブル名.classname で特定のテーブル全体を指定*/
+table.tb1{
+	border: 3px solid;
+	border-collapse: collapse;
+}
+/* テーブル名.classname クラス名で.classname で部分的に指定*/
+table.tb1 td{
+	border: 1px solid;
+	text-align: center;
+	vertical-align: middle;
+}
+
+table.tb1 td.b_r{
+	border-right: 3px solid;
+}
+
+table.tb1 tr.b_t{
+	border-top: 3px solid;
+}

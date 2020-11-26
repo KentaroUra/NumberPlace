@@ -1,0 +1,124 @@
+/* designed by Romeo(http://www43.tok2.com/home/rome0/) */
+
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro:200,400,700);
+
+html{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	height: auto;
+}
+
+body {
+	/*background-color: orange;*/
+	background-image: url("./media/back.gif");
+	background-repeat: repeat-x;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	height: auto;
+}
+
+#wrapper {
+	font-family: "Source Code Pro",;
+	margin: 0px auto 0px auto;
+	height:auto;
+	width: 650px;
+}
+
+h1 {
+	font-size: 40px;
+	font-weight: 200;
+	color: #99cc99;
+	text-align: center;
+	letter-spacing: 5px;
+	margin: 160px 0 15px 0;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #CFE4CF;
+	padding-bottom: 40px;
+}
+
+#navi{
+	text-align: center;
+}
+
+.menu {
+	font-size: 14px;
+	font-weight: 400;
+	color: #828282;
+	letter-spacing: 2px;
+	margin-right: 10px;
+	display: inline;
+	line-height: 2em;
+}
+
+a {
+	text-decoration: none;
+	color: #a9cfa9;
+	transition    : .5s;
+	padding       : 7px 7px;
+}
+
+a:hover {
+	text-decoration : none;
+	color		    : #ffffff;
+	background-color: #99cc99;
+	padding         : 7px 7px;
+}
+
+#txt {
+	font-size: 14px;
+	font-weight: 400;
+	color: #828282;
+	line-height: 120%;
+	letter-spacing: 2px;
+	width: 450px;
+	margin: 0 auto 0 auto;
+}
+
+.dash {
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #CFE4CF;
+	margin: 40px auto 10px auto;
+	width: 650px;
+	height: auto;
+}
+
+h2 {
+	font-size: 16px;
+	font-weight: 400;
+	text-decoration: underline;
+	color: #99cc99;
+	letter-spacing: 2px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+.button {
+  display       : inline-block;
+  border-radius : 5%;          /* 角丸       */
+  font-size     : 11pt;        /* 文字サイズ */
+  text-align    : center;      /* 文字位置   */
+  cursor        : pointer;     /* カーソル   */
+  padding       : 7px 7px;     /* 余白       */
+  background    : #ffffff;     /* 背景色     */
+  color         : #99cc99;     /* 文字色     */
+  line-height   : 1em;         /* 1行の高さ  */
+  transition    : .5s;         /* なめらか変化 */
+  border        : 2px solid #ffffff;    /* 枠の指定 */
+}
+.button:hover {
+  box-shadow    : none;        /* カーソル時の影消去 */
+  color         : #ffffff;     /* 背景色     */
+  background    : #99cc99;     /* 文字色     */
+}
+
+#foot {
+	font-size: 13px;
+	font-weight: 400;
+	color: #919191;
+	line-height: 120%;
+	letter-spacing: 2px;
+	margin: 0 auto 50px auto;
+	width: 450px;
+	height: auto;
+}
