@@ -40,7 +40,7 @@ String message1 = (String)request.getAttribute("message1");
 <br>
 <div class="menu"><a href = "/kino_NumberPlace/UserCreate">ユーザー登録</a></div>
 </div>
-<!-- navi end -->
+<!-- navi end end end end end end end end end -->
 
 <div id="txt">
 <h2>introduction</h2>
